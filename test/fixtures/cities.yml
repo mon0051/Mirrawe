@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyText
+  shipping_class_id: 1
+  country_id: 1
+
+two:
+  name: MyText
+  shipping_class_id: 1
+  country_id: 1

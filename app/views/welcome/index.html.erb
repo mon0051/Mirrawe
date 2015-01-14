@@ -1,0 +1,20 @@
+<div id="welcome-view" style="background-image: url(<%= image_path "background.jpg" %>)">
+  <div class="v-spacer-medium hidden-xs"></div>
+  <div class="v-spacer-medium hidden-xs"></div>
+  <div class="v-spacer-medium hidden-xs"></div>
+  <div class="content-wrapper">
+    <div class="homepage-content">
+      <div class="center-text">
+        <h1 class="massive-text">A cut above the rest</h1>
+        <div class="v-spacer-medium"></div>
+        <div class="curly"><h2>A webshop apart</h2></div>
+        <div class="v-spacer-medium"></div>
+        <div class="homepage_links">
+          <div class="left"><%= button_to "Get Started!", '/', class: 'homepage_button',method: :get %></div>
+          <div><%= button_to "Browse Store", '/products', class: 'homepage_button',method: :get %></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

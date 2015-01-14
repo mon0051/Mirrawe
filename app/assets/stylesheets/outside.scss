@@ -1,0 +1,109 @@
+
+@import 'vars';
+/* Colors */
+$dark-background: #2e2e2e;
+$med-background:#4f4f4f;
+$light-grey:#9f9f9f;
+$super-dark-background:#1e1e1e;
+$slight-shadow-color:rgba(0,0,0,0.01);
+$heading-color: #0099FF;
+$link-color:#4EC9B0;
+$html-color:#9EFFFF;
+$info-color:#0088ff;
+$note-color:#fff9d8;
+$comment-color:#57A64A;
+$string-color:#D69D85;
+$text: whitesmoke;
+$bold-line-thickness : 3px;
+$bold-line-type:solid;
+html {
+  background: $dark-background;
+  color: $text;
+  body {
+    background: $dark-background;
+    color: $text;
+    h1,h2,h3,h4,h5,h6{
+      color:$heading-color;
+    }
+    * {
+      background: $slight-shadow-color;
+      color: $text;
+    }
+    #feature a{
+      color:$link-color;
+    }
+    #guides{
+      background: $dark-background;
+      border:$heading-color 2px solid;
+    }
+    #container {
+      a{
+        color:$link-color;
+      }
+      .note{
+        background: $dark-background;
+        border: $note-color $bold-line-thickness $bold-line-type;
+      }
+      .info{
+        background: $dark-background;
+        border: $info-color $bold-line-thickness $bold-line-type;
+      }
+      .code_container{
+        background: $dark-background;
+        border: $link-color $bold-line-thickness $bold-line-type;
+        .code{
+          background: $dark-background;
+          .container{
+            background: $dark-background !important;
+            .line.alt2,.line.alt1{
+              background: $dark-background !important;
+            }
+            .ruby.keyword{
+              color:$heading-color !important;
+            }
+            .ruby.plain{
+              color:$text !important;
+            }
+            .ruby.string{
+              color:$string-color!important;
+            }
+            .ruby.comments{
+              color:$comment-color !important;
+            }
+            .ruby.color2{
+              color:$link-color !important;
+            }
+            .ruby.variable{
+              color:$text !important;
+            }
+            .ruby.script{
+              color:$html-color !important;
+            }
+            .plain.plain{
+              color:$text !important;
+            }
+            .sql.keyword{
+              color:$heading-color !important;
+            }
+            .sql.plain{
+              color:$text !important;
+            }
+
+          }
+        }
+      }
+    }
+    #feature{
+      background: $med-background;
+    }
+    #header{
+      background: $super-dark-background;
+    }
+    #subCol{
+      .chapters{
+        background: rgba(0,0,0,0.01);
+      }
+      background: $super-dark-background;
+    }
+  }
+}

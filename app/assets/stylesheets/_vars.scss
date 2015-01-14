@@ -1,0 +1,52 @@
+/* Colors */
+
+$rl-blue:#1c2834;
+$rl-gold:#e3d49e;
+$rl-white:#CCC;
+$rl-salmon:#ca6466;
+$rl-red:#703030;
+$rl-navy:#2f343b;
+$rl-grey:#7E827A;
+$rl-stuco:#E3CDA4;
+$rl-orange:#C77966;
+
+$invis:rgba(0,0,0,0);
+
+$light-text:white;
+
+
+/* Font Sizes */
+$massive-text-size: 5rem;
+$normal-text-size: 1rem;
+$small-text:0.8rem;
+/* Spacers */
+$slight-space:0.75;
+$small-space:1rem;
+$medium-space: 2rem;
+$large-space:4rem;
+/* Element Sizes */
+$nav-header-width:60em;
+$logo-size:3rem;
+$header-navbar-height:85px;
+$navbar-brand-height:48px;
+$header-navbar-link-height:50px;
+/* Custom Fonts */
+
+@font-face{
+  font-family: "Helvetica";
+  src:font-url('helvetica.woff') format('woff'), font-url('helvetica.ttf') format('truetype');
+  font-weight:normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Helvetica Neue";
+  src:font-url('helvetica_neue.woff') format('woff'), font-url('helvetica_neue.ttf') format('truetype');
+  font-weight:normal;
+  font-style: normal;
+}
+
+/* fonts */
+$mw-heading-font:'Open Sans', sans-serif;
+$mw-curly-font-family: "Libre Baskerville", serif;
+$mw-default-font: "Helvetica Neue","Helvetica", helvetica , sans-serif;
+$mw-logo-text:"Alice", sans-serif;

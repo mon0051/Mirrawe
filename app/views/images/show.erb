@@ -1,0 +1,9 @@
+<div class="mirrawe-single-image-view">
+  <p>
+    <strong>Title</strong>
+    <%= @image.title %>
+
+  <p>
+    <%= image_tag(@image.url, {alt: @image.alt, size: "250x250"}) %>
+  </p>
+</div>

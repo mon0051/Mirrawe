@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sale_name: MyText
+  sale_percent: 1
+  start_date: 2015-01-14 15:51:12
+  end_date: 2015-01-14 15:51:12
+
+two:
+  sale_name: MyText
+  sale_percent: 1
+  start_date: 2015-01-14 15:51:12
+  end_date: 2015-01-14 15:51:12

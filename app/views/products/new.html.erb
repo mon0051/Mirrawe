@@ -1,0 +1,36 @@
+<div class="new-product-view row col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
+  <h1>New Product</h1>
+  <%= form_for @product do |p| %>
+      <div class="form-group">
+        <%= p.label :name, class:'tert' %>
+        <%= p.text_field :name, class:'form-control' %>
+      </div>
+      <div class="form-group">
+        <%= p.label :cost, class:'tert' %>
+        <%= number_field :product,:cost,class:'form-control' %>
+      </div>
+      <div class="form-group">
+        <%= p.label :price, class:'tert' %>
+        <%= number_field :product,:price,class:'form-control' %>
+      </div>
+      <div class="form-group">
+        <%= p.label :image, class:'tert' %>
+        <%= p.collection_select(  :image_id , Image.all , :id , :title )%>
+      </div>
+      <div class="form-group">
+        <%= p.label :qty, class:'tert' %>
+        <%= number_field :product,:qty,class:'form-control' %>
+      </div>
+      <div class="form-group">
+        <%= p.label :restock_time, class:'tert' %>
+        <%= number_field :product,:restock_time,class:'form-control' %>
+      </div>
+      <div class="form-group">
+        <%= p.label :description, class:'tert' %>
+        <%= p.text_field :description, class:'form-control' %>
+      </div>
+      <div class="form-group">
+        <%= p.submit %>
+      </div>
+  <% end %>
+</div>

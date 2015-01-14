@@ -1,0 +1,91 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import 'vars';
+@import 'nav_header';
+@import 'homepage';
+@import 'mw-forms';
+@import 'products.scss';
+html{
+  font-family: $mw-default-font;
+  body{
+    font-family: $mw-default-font;
+    *{
+      font-family: $mw-default-font;
+    }
+  }
+}
+.v-spacer-small{
+  height:$small-space;
+}
+.v-spacer-medium{
+  height:$medium-space;
+}
+
+
+#railsMainContent {
+  padding: 0;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.mw-inline {
+  display: inline-block;
+}
+
+.golden, a.golden, a:hover.golden {
+  color: $rl-gold;
+  font-family: $mw-logo-text;
+  text-decoration: none;
+}
+
+#header {
+  background: $rl-blue;
+  height: $header-navbar-height;
+  .mw-inline {
+    display: inline-block;
+  }
+  .navbar-default {
+    background: $rl-blue;
+    border: $rl-blue;
+    .navbar-header {
+      height: $header-navbar-height;
+      .navbar-brand {
+        padding-top: ($header-navbar-height  - $navbar-brand-height) / 2;
+        color: $rl-gold;
+        font-size: 4rem;
+
+        @media (min-width: 1000px) {
+          width: 100%;
+          margin-left: 20% !important;
+        }
+      }
+    }
+    .navbar-nav > li {
+      padding-top: ($header-navbar-height - $header-navbar-link-height) / 2;
+      > a {
+        color: white;
+        font-family: $mw-heading-font;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1.7rem;
+      }
+
+        .spacer{
+          height:0px;
+        }
+
+
+      @media (min-width: 775px){
+        .spacer{
+          min-width:5rem !important;
+          display:block;
+        }
+      }
+    }
+    .navbar-nav > li:hover > a {
+      color: $rl-salmon;
+    }
+  }
+}

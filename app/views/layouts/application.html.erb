@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MirraweWebshop</title>
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag 'application', 'http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic|Open+Sans:400,600,700|Alice' %>
+
+</head>
+<body>
+<%= render 'shared/navBar' %>
+<div id="railsMainContent" class="container-fluid">
+  <%= yield %>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#railsMainContent').height(window.innerHeight - $('#header').height());
+    });
+    $(window).resize(function () {
+        $('#railsMainContent').height(window.innerHeight - $('#header').height());
+    });
+</script>
+</body>
+</html>
