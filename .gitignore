@@ -6,7 +6,7 @@
 /.idea
 # Ignore bundler config.
 /.bundle
-
+/test
 # Ignore all logfiles and tempfiles.
 /log/*
 !/log/.keep
