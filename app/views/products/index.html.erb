@@ -5,7 +5,7 @@
         <li class="product-item-wrapper">
           <div class="product-item">
             <div class="product-image-wrapper">
-              <div class="product-image" style='background-image:url(<%= image_url @product.image.url %>);'></div>
+              <div class="product-image" style='background-image:url(<%= image_path(@product.image.url) %>);'></div>
               <div class="product-image-back">
                 <div class="product-image-back-blur">
                   <%= @product.description %>
