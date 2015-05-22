@@ -51,4 +51,4 @@ production:
   <<: *default
   database: mirrawe_webshop_production
   username: mirrawe_webshop
-  password: <%= ENV['MIRRAWE_WEBSHOP_DATABASE_PASSWORD'] %>
+  password: basixr
