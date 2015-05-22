@@ -151,6 +151,7 @@
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.2.16, RVM: ruby-2.2.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v4.0.3, RVM: ruby-2.2.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.8.2, RVM: ruby-2.2.2 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="libv8 (v3.16.14.7, RVM: ruby-2.2.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.0.2, RVM: ruby-2.2.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.6.3, RVM: ruby-2.2.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v2.5, RVM: ruby-2.2.2 [global]) [gem]" level="application" />
@@ -167,6 +168,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rails-dom-testing (v1.0.6, RVM: ruby-2.2.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-html-sanitizer (v1.0.2, RVM: ruby-2.2.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="railties (v4.2.1, RVM: ruby-2.2.2 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ref (v1.0.5, RVM: ruby-2.2.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="responders (v2.1.0, RVM: ruby-2.2.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.4.13, RVM: ruby-2.2.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v5.0.3, RVM: ruby-2.2.2 [global]) [gem]" level="application" />
@@ -175,6 +177,7 @@
     <orderEntry type="library" scope="PROVIDED" name="spring (v1.3.6, RVM: ruby-2.2.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v3.1.0, RVM: ruby-2.2.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v2.3.1, RVM: ruby-2.2.2 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="therubyracer (v0.12.2, RVM: ruby-2.2.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.19.1, RVM: ruby-2.2.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.5, RVM: ruby-2.2.2 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v1.4.1, RVM: ruby-2.2.2 [global]) [gem]" level="application" />
