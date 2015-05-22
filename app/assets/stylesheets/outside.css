@@ -33,43 +33,59 @@ html {
     html body #guides {
       background: #2e2e2e;
       border: #0099ff 2px solid; }
-    html body #container a {
-      color: #4ec9b0; }
-    html body #container .note {
+    html body #container {
       background: #2e2e2e;
-      border: #fff9d8 3px solid; }
-    html body #container .info {
-      background: #2e2e2e;
-      border: #0088ff 3px solid; }
-    html body #container .code_container {
-      background: #2e2e2e;
-      border: #4ec9b0 3px solid; }
-      html body #container .code_container .code {
-        background: #2e2e2e; }
-        html body #container .code_container .code .container {
-          background: #2e2e2e !important; }
-          html body #container .code_container .code .container .line.alt2, html body #container .code_container .code .container .line.alt1 {
+      color: whitesmoke; }
+      html body #container h1, html body #container h2, html body #container h3, html body #container h4, html body #container h5, html body #container h6 {
+        color: #0099ff; }
+      html body #container * {
+        background: rgba(0, 0, 0, 0.01);
+        color: whitesmoke; }
+      html body #container #feature a {
+        color: #4ec9b0; }
+      html body #container #guides {
+        background: #2e2e2e;
+        border: #0099ff 2px solid; }
+      html body #container a {
+        color: #4ec9b0; }
+      html body #container .note {
+        background: #2e2e2e;
+        border: #fff9d8 3px solid; }
+      html body #container .info {
+        background: #2e2e2e;
+        border: #0088ff 3px solid; }
+      html body #container .warning {
+        background: #2e2e2e;
+        border: #aa0000 3px solid; }
+      html body #container .code_container {
+        background: #2e2e2e;
+        border: #4ec9b0 3px solid; }
+        html body #container .code_container .code {
+          background: #2e2e2e; }
+          html body #container .code_container .code .container {
             background: #2e2e2e !important; }
-          html body #container .code_container .code .container .ruby.keyword {
-            color: #0099ff !important; }
-          html body #container .code_container .code .container .ruby.plain {
-            color: whitesmoke !important; }
-          html body #container .code_container .code .container .ruby.string {
-            color: #d69d85 !important; }
-          html body #container .code_container .code .container .ruby.comments {
-            color: #57a64a !important; }
-          html body #container .code_container .code .container .ruby.color2 {
-            color: #4ec9b0 !important; }
-          html body #container .code_container .code .container .ruby.variable {
-            color: whitesmoke !important; }
-          html body #container .code_container .code .container .ruby.script {
-            color: #9effff !important; }
-          html body #container .code_container .code .container .plain.plain {
-            color: whitesmoke !important; }
-          html body #container .code_container .code .container .sql.keyword {
-            color: #0099ff !important; }
-          html body #container .code_container .code .container .sql.plain {
-            color: whitesmoke !important; }
+            html body #container .code_container .code .container .line.alt2, html body #container .code_container .code .container .line.alt1 {
+              background: #2e2e2e !important; }
+            html body #container .code_container .code .container .ruby.keyword {
+              color: #0099ff !important; }
+            html body #container .code_container .code .container .ruby.plain {
+              color: whitesmoke !important; }
+            html body #container .code_container .code .container .ruby.string {
+              color: #d69d85 !important; }
+            html body #container .code_container .code .container .ruby.comments {
+              color: #57a64a !important; }
+            html body #container .code_container .code .container .ruby.color2 {
+              color: #4ec9b0 !important; }
+            html body #container .code_container .code .container .ruby.variable {
+              color: whitesmoke !important; }
+            html body #container .code_container .code .container .ruby.script {
+              color: #9effff !important; }
+            html body #container .code_container .code .container .plain.plain {
+              color: whitesmoke !important; }
+            html body #container .code_container .code .container .sql.keyword {
+              color: #0099ff !important; }
+            html body #container .code_container .code .container .sql.plain {
+              color: whitesmoke !important; }
     html body #feature {
       background: #4f4f4f; }
     html body #header {
@@ -78,3 +94,5 @@ html {
       background: #1e1e1e; }
       html body #subCol .chapters {
         background: rgba(0, 0, 0, 0.01); }
+      html body #subCol ul > li > a > code {
+        color: #4ec9b0; }

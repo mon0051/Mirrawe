@@ -11,6 +11,7 @@ $link-color:#4EC9B0;
 $html-color:#9EFFFF;
 $info-color:#0088ff;
 $note-color:#fff9d8;
+$warning-color:#aa0000;
 $comment-color:#57A64A;
 $string-color:#D69D85;
 $text: whitesmoke;
@@ -37,6 +38,22 @@ html {
       border:$heading-color 2px solid;
     }
     #container {
+      background: $dark-background;
+      color: $text;
+      h1,h2,h3,h4,h5,h6{
+        color:$heading-color;
+      }
+      * {
+        background: $slight-shadow-color;
+        color: $text;
+      }
+      #feature a{
+        color:$link-color;
+      }
+      #guides{
+        background: $dark-background;
+        border:$heading-color 2px solid;
+      }
       a{
         color:$link-color;
       }
@@ -47,6 +64,10 @@ html {
       .info{
         background: $dark-background;
         border: $info-color $bold-line-thickness $bold-line-type;
+      }
+      .warning{
+        background: $dark-background;
+        border: $warning-color $bold-line-thickness $bold-line-type;
       }
       .code_container{
         background: $dark-background;
@@ -102,6 +123,9 @@ html {
     #subCol{
       .chapters{
         background: rgba(0,0,0,0.01);
+      }
+      ul > li > a > code {
+        color:$link-color;
       }
       background: $super-dark-background;
     }
