@@ -3,6 +3,7 @@ class ProductsController < ApplicationController
 		@products = Product.all
 	end
 	def new
+		before_action :authenticate_user!
 		@product = Product.new
 
 	end
