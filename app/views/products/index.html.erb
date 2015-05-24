@@ -1,15 +1,16 @@
 <% if admin_signed_in? %>
-    <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Admin
-        <span class="caret"></span></a>
-      <ul class="dropdown-menu" role="menu">
+    <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle" type="button" id="adminDropdown" data-toggle="dropdown" aria-expanded="true">
+        Admin <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="adminDropdown">
         <li><%= link_to "Add Image", '/images/new' %></li>
         <li><%= link_to "Add Product", '/products/new' %></li>
         <li><a href="#">Something else here</a></li>
         <li class="divider"></li>
         <li><a href="#">Separated link</a></li>
       </ul>
-    </li>
+    </div>
 <% end %>
 <%= render 'shared/page_banner', :page_title => 'Products' %>
 <div class="product-index">
