@@ -1,6 +1,6 @@
 class ProductsController < ApplicationController
-	before_action :authenticate_user!
-	skip_before_action :authenticate_user!, only:[:index,:show]
+	before_action :authenticate_admin!
+	skip_before_action :authenticate_admin!, only:[:index,:show]
 	def index
 		@products = Product.all
 	end
