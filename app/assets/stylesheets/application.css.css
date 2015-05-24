@@ -5682,6 +5682,20 @@ form input.form-control {
 .shop-function-button a {
   color: white; }
 
+.page-banner {
+  text-align: center; }
+  .page-banner h1 {
+    font-size: 5rem; }
+  .page-banner .underneath-title-padding {
+    height: 4rem; }
+  .page-banner .page-banner-details {
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    padding-left: 1rem;
+    padding-bottom: 5px; }
+  .page-banner .page-banner-after-padding {
+    height: 3rem; }
+
 html {
   font-family: "Helvetica Neue", "Helvetica", helvetica, sans-serif; }
   html body {
