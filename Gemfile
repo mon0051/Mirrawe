@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'therubyracer'
+gem 'simple_form'
 gem 'rails', '4.2.1'
 gem 'sprockets-rails'
 # Use mysql as the database for Active Record
