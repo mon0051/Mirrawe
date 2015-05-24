@@ -5622,7 +5622,6 @@ form input.form-control {
 .product-image-wrapper {
   -webkit-transform-style: preserve-3d;
   -webkit-backface-visibility: hidden;
-  -moz-transform: rotateY(-180deg);
   -moz-transform-style: preserve-3d;
   -moz-backface-visibility: hidden;
   -o-transition: all .4s ease-in-out;
@@ -5643,7 +5642,9 @@ form input.form-control {
   -webkit-transform: rotateY(-180deg);
   -webkit-transform-style: preserve-3d;
   -webkit-backface-visibility: hidden;
-  -moz-transform: rotateY(-180deg); }
+  -moz-transform: rotateY(-180deg);
+  -moz-transform-style: preserve-3d;
+  -moz-backface-visibility: hidden; }
 
 .product-image-back-blur {
   border-radius: 6px;
