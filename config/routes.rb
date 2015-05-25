@@ -5,6 +5,6 @@ Rails.application.routes.draw do
 
   get 'welcome/index'
   root 'welcome#index'
-  get 'sign_out', to: 'devise#sign_out_all_scopes'
+  get 'sign_out', to: 'devise#sign_out_and_redirect(:admins)'
 
 end
