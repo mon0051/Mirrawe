@@ -1,10 +1,13 @@
 Rails.application.routes.draw do
-  devise_for :admins, :users
+  get 'authen/sign_out'
+
+  devise_for :admins, path: "auth", path_names: {sign_out: 'logout'}
+  devise_for :users
   resources :products, :images
 
 
   get 'welcome/index'
   root 'welcome#index'
-  get 'sign_out', to: 'devise#sign_out_and_redirect(:admins)'
+  get 'sign_out', to: 'devise#sign_out'
 
 end
