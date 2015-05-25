@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :admins
-  devise_for :users
+  devise_for :admins, :users
   resources :products, :images
 
 
