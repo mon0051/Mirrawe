@@ -1,8 +1,5 @@
 Rails.application.routes.draw do
-  get 'authen/sign_out'
-
-  devise_for :admins, path: "auth", path_names: {sign_out: 'logout'}
-  devise_for :users
+  devise_for :admins, :users
   resources :products, :images
 
 
