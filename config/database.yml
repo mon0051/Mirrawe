@@ -52,4 +52,4 @@ production:
   database: mirrawe_webshop_production
   username: mirrawe_webshop
   password: basixr
-  host: 172.31.6.112
+  host: localhost
