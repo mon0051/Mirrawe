@@ -3,6 +3,7 @@ class ProductsController < ApplicationController
 	skip_before_action :authenticate_admin!, only:[:index,:show]
 	def index
 		@products = Product.all
+		render json: @products
 	end
 	def new
 		@product = Product.new
